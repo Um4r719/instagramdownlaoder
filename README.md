@@ -6,8 +6,8 @@ A cute, responsive HTML/CSS/JavaScript frontend using the supplied InstaWala-sty
 - index.html
 - style.css
 - script.js
-  server.js
-  vercel.json
+- server.js
+- vercel.json
   
 
 
