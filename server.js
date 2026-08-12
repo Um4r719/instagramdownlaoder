@@ -1,4 +1,5 @@
 const express = require("express");
+const path = require("path");
 const { Readable } = require("stream");
 
 const app = express();
@@ -10,7 +11,7 @@ const API_BASE =
 // STATIC WEBSITE
 // ==========================================
 
-app.use(express.static(__dirname));
+app.use(express.static(path.join(__dirname, "public")));
 
 // Homepage
 app.get("/", (req, res) => {
