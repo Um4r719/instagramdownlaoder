@@ -6,21 +6,10 @@ A cute, responsive HTML/CSS/JavaScript frontend using the supplied InstaWala-sty
 - index.html
 - style.css
 - script.js
+  server.js
+  vercel.json
+  
 
-## API
-The JavaScript currently calls:
-
-https://meta.davidxtech.de/api/instagram/download?url=
-
-and expects:
-
-{
-  "success": true,
-  "creator": "InstaWala",
-  "data": {
-    "url": "https://...mp4"
-  }
-}
 
 ## Important: CORS
 Because this is a browser-only frontend, the API server must allow requests from your website with CORS.
