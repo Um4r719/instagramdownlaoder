@@ -1,6 +1,6 @@
-# InstaSave — Instagram Video Downloader
+# InstaWala — Instagram Video Downloader
 
-A cute, responsive HTML/CSS/JavaScript frontend using the supplied DavidXTech-style API endpoint.
+A cute, responsive HTML/CSS/JavaScript frontend using the supplied InstaWala-style API endpoint.
 
 ## Files
 - index.html
@@ -16,7 +16,7 @@ and expects:
 
 {
   "success": true,
-  "creator": "DavidXTech",
+  "creator": "InstaWala",
   "data": {
     "url": "https://...mp4"
   }

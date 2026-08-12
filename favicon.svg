@@ -1,0 +1,31 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 128 128"
+>
+  <rect
+    width="128"
+    height="128"
+    rx="30"
+    fill="#18b87a"
+  />
+
+  <path
+    d="M64 25
+       C50 25 39 36 39 50
+       V69
+       L28 69
+       L64 104
+       L100 69
+       H89
+       V50
+       C89 36 78 25 64 25Z"
+    fill="white"
+  />
+
+  <path
+    d="M64 43V78"
+    stroke="#18b87a"
+    stroke-width="8"
+    stroke-linecap="round"
+  />
+</svg>
