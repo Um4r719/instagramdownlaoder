@@ -67,13 +67,7 @@ const saveBtn =
 const creator =
   document.getElementById("creator");
 
-  /* ==================
-  Vecel Tracker
-  ================= */
-  import { inject } from "@vercel/analytics"
-
-inject()
-
+  
 
 /* =========================
    HELPERS
