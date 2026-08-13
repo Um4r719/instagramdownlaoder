@@ -1,8 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7340887305294698"
-     crossorigin="anonymous"></script>
+
+  <!-- ================================
+       GOOGLE ADSENSE
+  ================================= -->
+
+  <script async
+    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7340887305294698"
+    crossorigin="anonymous">
+  </script>
+
+  <meta name="google-adsense-account" content="ca-pub-7340887305294698">
+
+  <!-- ================================
+       BASIC META
+  ================================= -->
+
   <meta charset="UTF-8">
 
   <meta
@@ -10,19 +25,13 @@
     content="width=device-width, initial-scale=1.0"
   >
 
-  <!-- ================================
-       PRIMARY SEO
-  ================================= -->
-
-  <title>
-    InstaWala - Free Instagram Video & Reels Downloader
-  </title>
+  <title>InstaWala - Free Instagram Video & Reels Downloader</title>
 
   <meta
     name="description"
-    content="Download Instagram videos, reels, stories, and IGTV photos instantly with InstaWala. 100% safe, fast, and free Instagram downloader."
+    content="Download Instagram videos, reels, stories, and IGTV photos instantly with InstaWala. Fast, simple, and free Instagram downloader."
   >
-<meta name="google-adsense-account" content="ca-pub-7340887305294698">
+
   <meta
     name="robots"
     content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
@@ -53,9 +62,8 @@
     content="#18b87a"
   >
 
-
   <!-- ================================
-       LANGUAGE / REGION
+       LANGUAGE
   ================================= -->
 
   <meta
@@ -63,13 +71,8 @@
     content="en"
   >
 
-
   <!-- ================================
        CANONICAL
-       
-       IMPORTANT:
-       Replace YOUR-DOMAIN.com with
-       your real domain.
   ================================= -->
 
   <link
@@ -77,12 +80,8 @@
     href="https://udwa.site/"
   >
 
-
   <!-- ================================
        FAVICON
-       
-       Create:
-       /favicon.svg
   ================================= -->
 
   <link
@@ -96,11 +95,8 @@
     href="/favicon.svg"
   >
 
-
   <!-- ================================
        OPEN GRAPH
-       WhatsApp / Facebook / Telegram
-       and other social previews
   ================================= -->
 
   <meta
@@ -163,9 +159,8 @@
     content="en_US"
   >
 
-
   <!-- ================================
-       TWITTER / X CARD
+       TWITTER / X
   ================================= -->
 
   <meta
@@ -193,29 +188,14 @@
     content="InstaWala Instagram Video Downloader"
   >
 
-
   <!-- ================================
-       SOCIAL SHARING BRAND
+       SOCIAL
   ================================= -->
 
   <meta
     property="article:publisher"
     content="https://www.instagram.com/"
   >
-
-
-  <!-- ================================
-       KEYWORD CONTEXT
-       
-       Google does NOT use meta keywords
-       for ranking, so don't put 5000
-       spam keywords here.
-       
-       Relevant terms should naturally
-       appear in titles, headings, FAQs,
-       paragraphs and page content.
-  ================================= -->
-
 
   <!-- ================================
        PERFORMANCE
@@ -236,7 +216,6 @@
     href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap"
     rel="stylesheet"
   >
-
 
   <!-- ================================
        STRUCTURED DATA
@@ -267,11 +246,6 @@
   }
   </script>
 
-<script defer src="https://cdn.vercel-insights.com/v1/script.js"></script>
-  <!-- ================================
-       WEBSITE STRUCTURED DATA
-  ================================= -->
-
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -281,6 +255,18 @@
   }
   </script>
 
+  <!-- ================================
+       VERCEL ANALYTICS
+  ================================= -->
+
+  <script
+    defer
+    src="https://cdn.vercel-insights.com/v1/script.js">
+  </script>
+
+  <!-- ================================
+       CSS
+  ================================= -->
 
   <link
     rel="stylesheet"
@@ -289,13 +275,23 @@
 
 </head>
 
+
 <body>
 
-  <!-- NAVBAR -->
+  <!-- ================================
+       NAVBAR
+  ================================= -->
+
   <header class="navbar">
+
     <a href="#" class="brand">
+
       <span class="brand-icon">↓</span>
-      <span>Insta<span>Wala</span></span>
+
+      <span>
+        Insta<span>Wala</span>
+      </span>
+
     </a>
 
     <nav>
@@ -303,12 +299,16 @@
       <a href="#how">How It Works</a>
       <a href="#faq">FAQ</a>
     </nav>
+
   </header>
 
 
   <main>
 
-    <!-- HERO -->
+    <!-- ================================
+         HERO
+    ================================= -->
+
     <section class="hero">
 
       <div class="pill">
@@ -326,7 +326,20 @@
       </p>
 
 
-      <!-- DOWNLOAD BOX -->
+      <!-- ================================
+           ADSENSE AUTO ADS
+           Google will automatically decide
+           where ads should appear.
+      ================================= -->
+
+      <!-- AdSense Auto Ads is enabled globally
+           through the script in <head>. -->
+
+
+      <!-- ================================
+           DOWNLOAD BOX
+      ================================= -->
+
       <div class="download-card">
 
         <div class="input-wrap">
@@ -377,14 +390,20 @@
       </div>
 
 
-      <!-- MESSAGE -->
+      <!-- ================================
+           MESSAGE
+      ================================= -->
+
       <div
         id="message"
         class="message hidden"
       ></div>
 
 
-      <!-- RESULT -->
+      <!-- ================================
+           RESULT
+      ================================= -->
+
       <div
         id="result"
         class="result-card hidden"
@@ -393,6 +412,7 @@
         <div class="result-top">
 
           <div>
+
             <span class="success-dot">
               ✓
             </span>
@@ -400,6 +420,7 @@
             <strong>
               Video ready
             </strong>
+
           </div>
 
           <span
@@ -413,6 +434,7 @@
 
 
         <!-- VIDEO PREVIEW -->
+
         <video
           id="videoPreview"
           class="video-preview"
@@ -422,6 +444,7 @@
 
 
         <!-- DOWNLOAD -->
+
         <a
           id="saveBtn"
           class="save-btn"
@@ -435,7 +458,10 @@
     </section>
 
 
-    <!-- FEATURES -->
+    <!-- ================================
+         FEATURES
+    ================================= -->
+
     <section
       id="features"
       class="section"
@@ -519,7 +545,10 @@
     </section>
 
 
-    <!-- HOW IT WORKS -->
+    <!-- ================================
+         HOW IT WORKS
+    ================================= -->
+
     <section
       id="how"
       class="section soft"
@@ -592,7 +621,10 @@
     </section>
 
 
-    <!-- FAQ -->
+    <!-- ================================
+         FAQ
+    ================================= -->
+
     <section
       id="faq"
       class="section"
@@ -676,7 +708,10 @@
   </main>
 
 
-  <!-- FOOTER -->
+  <!-- ================================
+       FOOTER
+  ================================= -->
+
   <footer>
 
     <div class="footer-inner">
@@ -725,7 +760,12 @@
   </footer>
 
 
+  <!-- ================================
+       JAVASCRIPT
+  ================================= -->
+
   <script src="script.js"></script>
 
 </body>
+
 </html>
